@@ -3,7 +3,7 @@ module.exports = (client) => async(event) =>{
   msg.delete({revoke:true});
 
   const input = msg.patternMatch["input"].trim();
-  const emoji = input.substring(8, input.length).trim();
+  const emoji = input.substring(8, input.length).trim() || "🛴";
   const replyMsgId = msg.replyToMsgId;
 
   await client.sendMessage("@stickers",{message:"/addsticker"});
