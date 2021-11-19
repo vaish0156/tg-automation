@@ -35,8 +35,9 @@ const meaning = require("./commands/meaning");
   client.addEventHandler(speak(client), new NewMessage({ outgoing:true, pattern:/^.speak */ }));
   client.addEventHandler(pic(client), new NewMessage({ outgoing:true, pattern:/^.pic */ }));
   client.addEventHandler(sticker(client), new NewMessage({ outgoing:true, pattern:/^.sticker */ }));
-  client.addEventHandler(url(client), new NewMessage({outgoing:true, pattern:/^.url */}));
+  // client.addEventHandler(url(client), new NewMessage({outgoing:true, pattern:/^.url */}));
   client.addEventHandler(meaning(client), new NewMessage({outgoing:true, pattern:/^.meaning */}));
+  client.addEventHandler(url(client), new NewMessage({outgoing:true}));
   
 })()
 

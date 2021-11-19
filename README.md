@@ -16,6 +16,4 @@
 
 `.sticker <emoji>` - Save a sticker to your sticker pack by replying to it.
 
-`.url <text>` - Makes hyperlink with html format.
-
 `.meaning <text>` - Gives the meaning of **text**.
