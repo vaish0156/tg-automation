@@ -17,3 +17,5 @@
 `.sticker <emoji>` - Save a sticker to your sticker pack by replying to it.
 
 `.meaning <text>` - Gives the meaning of **text**.
+
+`.sq <text>` - Sends the **text** with square font.
